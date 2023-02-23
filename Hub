@@ -41,6 +41,7 @@ local VERSO_2 = Instance.new("TextLabel")
 
 hub.Name = "hub"
 hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+hub.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = hub
